@@ -84,6 +84,25 @@
   <br>
 
   - 도움이 될 만한 코드의 예제 실습 후, 참고 사항으로 커밋 예정
+  
+  <br>
+  
+  ### 프로젝트 실행방법
+  
+  1. 프로젝트 경로에 3개의 `CMD`창 생성
+  2. `CMD`에 각각의 명령어 입력
+  
+  <br>
+  
+  `cd frontend` `npm start`
+  
+  <br>
+  
+  `cd backend` `npm run dev`
+  
+  <br>
+  
+  `cd backend` `cd venv` `activate` `cd ../../` `uvicorn main:app --reload`
 
 <br><br>
 
