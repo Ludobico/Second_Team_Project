@@ -101,7 +101,7 @@
   
   <br>
   
-  `cd backend` `cd venv` `activate` `cd ../../` `uvicorn main:app --reload`
+  `cd backend` `cd venv` `cd script` `activate` `cd ../../` `uvicorn main:app --reload`
 
 <br><br>
 
