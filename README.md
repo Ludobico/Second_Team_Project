@@ -1,4 +1,5 @@
 <hr>
+
 <div align='center'>
   <img width='40%' src='https://user-images.githubusercontent.com/104360734/206969988-362e875c-af4c-4743-aad0-b331f52bd2a0.png'></img>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -84,24 +85,48 @@
 
   - 도움이 될 만한 코드의 예제 실습 후, 참고 사항으로 커밋 예정
   
-  <br>
+    <br>
   
-  ### 프로젝트 실행방법
-  
-  1. 프로젝트 경로에 3개의 `CMD`창 생성
-  2. `CMD`에 각각의 명령어 입력
+### 프로젝트 패키지 설치 & 웹 실행
+  - 프로젝트 경로에 3개의 `Terminal` 생성, `Terminal`에 각각의 명령어 입력
   
   <br>
   
-  `cd frontend` `npm start`
+  `frontend`
+  
+  1. `cd frontend` (frontend 폴더로 이동)
+  
+  2. `npm i` (frontend 패키지 설치)
+  
+  3. `npm start` (localhost:3000)
   
   <br>
   
-  `cd backend` `npm run dev`
+  `backend`
   
+  1. `cd backend` (backend 폴더로 이동)
+  
+  2. `npm i` (backend 패키지 설치)
+  
+  3. `npm run dev` (localhost:8008)
+
   <br>
   
-  `cd backend` `cd venv` `cd script` `activate` `cd ../../` `uvicorn main:app --reload`
+  `python`
+  
+  1. `cd backend` (backend 폴더로 이동)
+  
+  2. `python -m venv venv` (python 가상환경 설정)
+  
+  3. `cd venv/Scripts`
+  
+  4. `./activate` or `activate`
+  
+  5. `cd ../../` (backend 폴더로 이동)
+  
+  6. `pip install -r requirements.txt` (해당 프로젝트에서 사용한 패키지를 가상환경에 설치)
+  
+  7. `uvicorn main:app --reload` (localhost:8000)
 
 <br><br>
 
